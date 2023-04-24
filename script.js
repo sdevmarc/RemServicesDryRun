@@ -1,3 +1,11 @@
+const btnHire = document.getElementById('btnHire');
+const music = document.getElementById('music');
+
+btnHire.addEventListener('click', () => {
+    music.play();
+});
+
+
 let sections = document.querySelectorAll('section')
 let navLinks = document.querySelectorAll('header nav a')
 
